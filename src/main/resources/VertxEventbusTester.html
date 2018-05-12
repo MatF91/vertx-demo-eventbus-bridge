@@ -9,9 +9,9 @@ eb.onopen = function() {
 	console.log('Socket opened');
 
 	// set a handler to receive a message
-	eb.registerHandler('news-feed', function(error, message) {
+	/*eb.registerHandler('news-feed', function(error, message) {
 		console.log('eventbus message: ' + JSON.stringify(message));
-	});
+	});*/
 }
 
 eb.onclose = function() {
